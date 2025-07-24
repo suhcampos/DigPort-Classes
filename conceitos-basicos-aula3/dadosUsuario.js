@@ -9,3 +9,4 @@ const imc = peso / (altura*altura);
 const anoNascimento = anoAtual - idade;
 
 console.log(nome, "tem", idade + "anos", "pesa", peso,"kg", "tem", altura, "de altura", "e seu IMC é de", imc, nome.toLowerCase(), "nasceu em", anoNascimento);
+console.log(`${nome} tem ${idade} anos, pesa ${peso} kg`);
